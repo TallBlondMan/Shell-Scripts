@@ -1,0 +1,12 @@
+A Tips and Tricks file I will pipulate with things I learned
+
+1. You can get the loop in Bash:
+	mkdir rc{1,2,3,E}.d 
+   This will create 4 folders with names
+	-rc1.d
+	-rc2.d 
+	-rc3.d
+	-rcE.d
+   This can be done recursively:
+	$ ls -ld {,usr,usr/local}/{bin,sbin,lib}
+	
