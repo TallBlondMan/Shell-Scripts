@@ -9,4 +9,12 @@ A Tips and Tricks file I will pipulate with things I learned
 	-rcE.d
    This can be done recursively:
 	$ ls -ld {,usr,usr/local}/{bin,sbin,lib}
-	
+
+2. The '[' is a builtin operator and is responsible for test has to be put with a SPACE 	
+	if [ OPERATIO ]
+
+	&& and || are TRUE and FALSE and will run code depending on test result
+		$ if [ $X ] && echo "TRUE" || echo "FALSE"
+		TRUE - if X has a value
+		FALSE if X has not a value
+
